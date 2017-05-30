@@ -1,0 +1,73 @@
+#centerBox{
+  background-color: white;
+
+  border: 5px solid white;
+  text-align: center;
+  padding-right: 15px;
+padding-left: 15px;
+margin-right: 10%;
+margin-left:  10%;
+}
+#quote{
+  font-size: 4em;
+  color: blue;
+  font-family: 'Roboto Slab', serif;
+  text-shadow: 0 0 2px #000; /* horizontal-offset vertical-offset 'blur' colour */
+  -moz-text-shadow: 0 0 2px #000;
+  -webkit-text-shadow: 0 0 2px #000;
+}
+#btnNextQuote{
+  float: right;
+    color: lightgrey;
+
+}
+
+.btnPublish{
+  float: left;
+  position: relative;
+}
+
+.right{
+  float: right;
+}
+.left{
+  float: left;
+}
+
+p#title{
+  padding-top: 5%;
+  font-size: 6.2em;
+  color: white;
+  text-align: center;
+font-family: 'Roboto', sans-serif;
+  -webkit-text-shadow: 0 0 2px #000;
+    text-shadow: 0 0 2px #000; /* horizontal-offset vertical-offset 'blur' colour */
+
+
+}
+.designedButton{
+  font-size: 24px;
+}
+a{
+  color: white;
+}
+ @media only screen and (max-width: 600px) {
+  #centerBox{
+  border: 1px solid white;
+  padding-right: 15px;
+padding-left: 15px;
+margin-right: 2%;
+margin-left:  2%;
+}
+#quote{
+font-size: 1.5em;
+  }
+.designedButton{
+  font-size: 0.8em;
+}
+p#title{
+  font-size: 2em;
+  padding-top: 20px;
+  }
+}
+
